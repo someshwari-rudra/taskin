@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/images/background.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 80%;
+    width: 460px;
+    display: flex;
+    padding:2rem 2.5rem ;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffbe76;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.icecream{
+    color: #fff ;
+    margin-bottom: 0.5rem;
+}
+
+.form_element label {
+    font-family: sans-serif;
+}
+
+.form_element input[type="text"], input[type="date"] ,input[type="number"]{
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: none
+}
+.form_element input[type="text"],
+input[type="date"],
+input[type="number"]:focus{
+    outline: none;
+}
+.gender{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gender  ,.terms_conditions{
+   margin-bottom: 1rem;
+}
+#favorit_Flavor {
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 0.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+#favorit_Flavor:focus{
+    outline: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    padding: 10px 30px;
+    width: 48%;
+    font-size: 18px;
+    color: #fff;
+    background: #eb4d4b;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+.form_element input:focus {
+    outline: 0;
+}
+
+.form_element .success input {
+    border-color: #26de81;
+}
+
+.form_element .error input:focus {
+    outline: 2px solid #ff000d;
+}
+
+.form_element .error {
+    color: #ff000d;
+    font-size: 15px;
+    height: 13px;
+}
+.error {
+    font-size: 15px;
+    color: red;
+    margin-bottom: 1rem;
+}

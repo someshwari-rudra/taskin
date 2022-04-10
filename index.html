@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main_div">
+        <div class="container">
+            <h1 class="icecream">Ice Cream Shop</h1>
+            <h1>registration Form</h1>
+            <form action="#">
+                <div class="form_element">
+                    <label for="name">User Name</label>
+                    <input type="text" placeholder="john" id="UserName">
+                     <small class="error"></small>
+                </div>
+                <div class="form_element">
+                    <label for="Age">Mobile No</label>
+                    <input type="number" placeholder="Enter Mobile No" id="MobileNo">
+                     <small class="error"></small>
+                </div>
+                <div class="form_element">
+                    <label for="DOB">DOB</label>
+                    <input type="date" placeholder="Enter DOB" id="DOB">
+                     <small class="error"></small>
+                </div>
+                <div class="form_element">
+                    <label for="name">favorite Flavor</label>
+                    <select id="favorit_Flavor">
+                    <option value="Select">Select</option>
+                    <option value="Vanilla">Vanilla</option>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Coconut">Coconut</option>
+                    <option value="Strawberry">Strawberry</option>
+                    <option value="Mango">Mango</option>
+                    <option value="Oreo">Oreo</option>
+                     <small class="error"></small>
+                    </select>
+                </div>
+                <div class="form_element gender">
+                        <label for="Gender">Gender:</label>
+                        <div class="Male">
+                            <input type="radio" name="gender">Male
+                        </div>
+                        <div class="female">
+                            <input type="radio" name="gender">Female
+                        </div>
+                        <div class="other">
+                            <input type="radio" name="gender">Other
+                        </div>
+                         <small class="error"></small>
+                </div>
+                <div class="form_element terms_conditions">
+                    <input type="checkbox" id="terms_Conditons">
+                    <label for="Name">I Agree terms and conditions</label>
+                     <small class="error"></small>
+                </div>
+                <div class="form_element">
+                    <div class="buttons">
+                        <button class="btn" type="submit" id="Submit">Submit</button>
+                        <button class="btn" type="submit" id="Reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
